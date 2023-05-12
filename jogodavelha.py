@@ -136,7 +136,7 @@ while(jogarNovamente=='s'):
 
     print(Fore.RED+'FIM DE JOGO'+Fore.YELLOW)
     if (vit=='X' or vit=='O'):
-         print('Resultado: Jogador '+ vit +'venceu')
+         print('Resultado: Jogador '+ vit +' venceu')
     else:
         print('Houve empate!')
     jogarNovamente=input(Fore.BLUE+'Jogar Novamente? [s/n]: ' + Fore.RESET)
